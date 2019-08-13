@@ -3,14 +3,14 @@ package edu.escuelaing.arem.model;
 
 public class Node {
 
-    private float information;
+    private Object information;
     private Node next;
 
-    public Node (float information){
+    public Node (Object information){
         this.information = information;
     }
 
-    public float getInformation() {
+    public Object getInformation() {
         return this.information;
     }
 
