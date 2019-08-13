@@ -11,7 +11,15 @@ public class Node {
     }
 
     public float getInformation() {
-        return information;
+        return this.information;
+    }
+
+    public Node getNext(){
+        return this.next;
+    }
+
+    public void setNext(Node next){
+        this.next = next;
     }
 
     @Override
