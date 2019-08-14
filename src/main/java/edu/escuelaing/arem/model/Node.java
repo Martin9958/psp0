@@ -8,10 +8,15 @@ public class Node {
 
     public Node (Object information){
         this.information = information;
+        this.next = null;
     }
 
     public Object getInformation() {
         return this.information;
+    }
+
+    public void setInformation(Object information){
+        this.information = information;
     }
 
     public Node getNext(){
@@ -26,7 +31,7 @@ public class Node {
     public String toString() {
         return "Node{" +
                 "information=" + information +
-                ",next=" + next +
+                ", next=" + next +
                 '}';
     }
 }
