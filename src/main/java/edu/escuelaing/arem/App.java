@@ -1,5 +1,6 @@
 package edu.escuelaing.arem;
 
+import edu.escuelaing.arem.model.calculatorKitModel.calculatorKit;
 import edu.escuelaing.arem.model.linkedListModel.MyLinkedList;
 import edu.escuelaing.arem.model.linkedListModel.exception.MyLinkedListException;
 
@@ -87,6 +88,8 @@ public class App
         } catch (MyLinkedListException e) {
             e.printStackTrace();
         }
+
+        calculatorKit calculatorKit = new calculatorKit();
 
     }
 }
