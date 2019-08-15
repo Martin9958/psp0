@@ -1,7 +1,7 @@
 package edu.escuelaing.arem;
 
-import edu.escuelaing.arem.model.MyLinkedList;
-import edu.escuelaing.arem.model.MyLinkedListException;
+import edu.escuelaing.arem.model.linkedListModel.MyLinkedList;
+import edu.escuelaing.arem.model.linkedListModel.exception.MyLinkedListException;
 
 /**
  * This is the main class to execute the PSP0 Program

@@ -1,4 +1,4 @@
-package edu.escuelaing.arem.model;
+package edu.escuelaing.arem.model.linkedListModel.exception;
 
 /**
  *
