@@ -89,7 +89,13 @@ public class App
             e.printStackTrace();
         }
 
-        calculatorKit calculatorKit = new calculatorKit();
+        calculatorKit calculatorKit = new calculatorKit("./src/main/resources/columna1.txt");
+        System.out.println(calculatorKit.getLinkedList());
+        System.out.println(calculatorKit.calculateMean());
+
+        calculatorKit calculatorKit2 = new calculatorKit("./src/main/resources/columna2.txt");
+        System.out.println(calculatorKit2.getLinkedList());
+        System.out.println(calculatorKit2.calculateMean());
 
     }
 }
