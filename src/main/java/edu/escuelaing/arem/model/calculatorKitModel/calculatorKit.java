@@ -38,15 +38,7 @@ public class calculatorKit {
      *
      * @return
      */
-    public MyLinkedList getLinkedList(){
-        return this.linkedList;
-    }
-
-    /**
-     *
-     * @return
-     */
-    public String calculateMean(){
+    public Double calculateMean(){
         Double summatory = 0.0;
         for(int i =0; i<linkedList.getMyLinkedListSize();i++){
             try {
@@ -56,8 +48,7 @@ public class calculatorKit {
             }
         }
         Double mean = summatory/linkedList.getMyLinkedListSize();
-        DecimalFormat decimalFormat = new DecimalFormat("#.##");
-        return decimalFormat.format(mean);
+        return mean;
     }
 
     /**
@@ -65,7 +56,28 @@ public class calculatorKit {
      * @return
      */
     public Double calculateStdDesviation(){
-        return 0.0;
+        Double summatory = 0.0;
+        for(int i =0; i<linkedList.getMyLinkedListSize();i++){
+            try {
+                summatory +=  Math.pow((Double)linkedList.getNodeByIndex(i).getInformation() - calculateMean(), 2);
+            } catch (MyLinkedListException e) {
+                e.printStackTrace();
+            }
+        }
+        Double desviation = Math.sqrt(summatory/(linkedList.getMyLinkedListSize()-1));
+        return desviation;
+    }
+
+    public String calculationFormat(Object information){
+        DecimalFormat decimalFormat = new DecimalFormat("#.##");
+        return decimalFormat.format(information);
+    }
+    /**
+     *
+     * @return
+     */
+    public MyLinkedList getLinkedList(){
+        return this.linkedList;
     }
 
 }

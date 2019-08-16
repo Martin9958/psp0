@@ -91,11 +91,17 @@ public class App
 
         calculatorKit calculatorKit = new calculatorKit("./src/main/resources/columna1.txt");
         System.out.println(calculatorKit.getLinkedList());
-        System.out.println(calculatorKit.calculateMean());
+        System.out.println("MEAN 1: "+ calculatorKit.calculateMean());
+        System.out.println("MEAN 1: With Format "+ calculatorKit.calculationFormat(calculatorKit.calculateMean()));
+        System.out.println("STD 1: "+ calculatorKit.calculateStdDesviation());
+        System.out.println("STD 1: With Format "+ calculatorKit.calculationFormat(calculatorKit.calculateStdDesviation()));
 
         calculatorKit calculatorKit2 = new calculatorKit("./src/main/resources/columna2.txt");
         System.out.println(calculatorKit2.getLinkedList());
-        System.out.println(calculatorKit2.calculateMean());
+        System.out.println("MEAN 2: "+ calculatorKit2.calculateMean());
+        System.out.println("MEAN 2: With Format "+ calculatorKit2.calculationFormat(calculatorKit2.calculateMean()));
+        System.out.println("STD 2: "+ calculatorKit2.calculateStdDesviation());
+        System.out.println("STD 2: With Format "+calculatorKit2.calculationFormat(calculatorKit2.calculateStdDesviation()));
 
     }
 }
