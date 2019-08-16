@@ -40,14 +40,14 @@ public class calculatorKit {
      */
     public Double calculateMean(){
         Double summatory = 0.0;
-        for(int i =0; i<linkedList.getMyLinkedListSize();i++){
+        for(int i =0; i<this.linkedList.getMyLinkedListSize();i++){
             try {
-                summatory += (Double) linkedList.getNodeByIndex(i).getInformation();
+                summatory += (Double) this.linkedList.getNodeByIndex(i).getInformation();
             } catch (MyLinkedListException e) {
                 e.printStackTrace();
             }
         }
-        Double mean = summatory/linkedList.getMyLinkedListSize();
+        Double mean = summatory/this.linkedList.getMyLinkedListSize();
         return mean;
     }
 
@@ -57,14 +57,14 @@ public class calculatorKit {
      */
     public Double calculateStdDesviation(){
         Double summatory = 0.0;
-        for(int i =0; i<linkedList.getMyLinkedListSize();i++){
+        for(int i =0; i<this.linkedList.getMyLinkedListSize();i++){
             try {
-                summatory +=  Math.pow((Double)linkedList.getNodeByIndex(i).getInformation() - calculateMean(), 2);
+                summatory +=  Math.pow((Double)this.linkedList.getNodeByIndex(i).getInformation() - calculateMean(), 2);
             } catch (MyLinkedListException e) {
                 e.printStackTrace();
             }
         }
-        Double desviation = Math.sqrt(summatory/(linkedList.getMyLinkedListSize()-1));
+        Double desviation = Math.sqrt(summatory/(this.linkedList.getMyLinkedListSize()-1));
         return desviation;
     }
 

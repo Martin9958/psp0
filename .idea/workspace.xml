@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae9b890b-4b09-4177-a822-6eb8810fabfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/model/calculatorKitModel/calculatorKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/model/calculatorKitModel/calculatorKit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/model/calculatorKitModel/calculatorKit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+            <state relative-caret-position="1176">
+              <caret line="59" column="67" lean-forward="true" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1974">
-              <caret line="94" column="91" lean-forward="true" selection-start-line="94" selection-start-column="91" selection-end-line="94" selection-end-column="91" />
+            <state relative-caret-position="2058">
+              <caret line="98" column="94" lean-forward="true" selection-start-line="98" selection-start-column="94" selection-end-line="98" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +103,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/edu/escuelaing/arem/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/model/calculatorKitModel/calculatorKit.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/model/calculatorKitModel/calculatorKit.java" />
       </list>
     </option>
   </component>
@@ -281,18 +280,18 @@
       <workItem from="1565743803045" duration="1684000" />
       <workItem from="1565872701901" duration="23151000" />
       <workItem from="1565925748631" duration="4733000" />
-      <workItem from="1565963268806" duration="540000" />
+      <workItem from="1565963268806" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38664000" />
+    <option name="totallyTimeSpent" value="38947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1599336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1599336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,9 +308,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32546374" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32456142" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3282572" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32785088" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,16 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/model/calculatorKitModel/calculatorKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/model/linkedListModel/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-126">
@@ -409,8 +398,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1974">
-          <caret line="94" column="91" lean-forward="true" selection-start-line="94" selection-start-column="91" selection-end-line="94" selection-end-column="91" />
+        <state relative-caret-position="2058">
+          <caret line="98" column="94" lean-forward="true" selection-start-line="98" selection-start-column="94" selection-end-line="98" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/escuelaing/arem/model/calculatorKitModel/calculatorKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="59" column="67" lean-forward="true" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
