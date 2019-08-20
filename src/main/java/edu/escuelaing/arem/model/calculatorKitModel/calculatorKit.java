@@ -8,15 +8,19 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.text.DecimalFormat;
 
+/**
+ *  The calculator kit that read a set of elements of a file and calculate mean and std deviation
+ * @author Martin Cantor (andres.cantor-u@mail.escuelaing.edu.co)
+ */
 public class calculatorKit {
 
     /**
-     *
+     * The linked list that content the elements of a file
      */
     private MyLinkedList linkedList;
 
     /**
-     *
+     * Calculator kit constructor with params
      */
     public calculatorKit(String path){
         BufferedReader bufferedReader;
@@ -35,8 +39,8 @@ public class calculatorKit {
     }
 
     /**
-     *
-     * @return
+     * Calculate the mean given a set of n real numbers
+     * @return the mean
      */
     public Double calculateMean(){
         Double summatory = 0.0;
@@ -52,10 +56,10 @@ public class calculatorKit {
     }
 
     /**
-     *
-     * @return
+     * Calculate the standard Deviation given a set of n real numbers
+     * @return the standard deviation
      */
-    public Double calculateStdDesviation(){
+    public Double calculateStdDeviation(){
         Double summatory = 0.0;
         for(int i =0; i<this.linkedList.getMyLinkedListSize();i++){
             try {
@@ -68,13 +72,19 @@ public class calculatorKit {
         return desviation;
     }
 
+    /**
+     *
+     * @param information
+     * @return
+     */
     public String calculationFormat(Object information){
         DecimalFormat decimalFormat = new DecimalFormat("#.##");
         return decimalFormat.format(information);
     }
+
     /**
-     *
-     * @return
+     * Get the linked list that content the elements of a file
+     * @return the linked list
      */
     public MyLinkedList getLinkedList(){
         return this.linkedList;

@@ -3,22 +3,24 @@ package edu.escuelaing.arem.model.linkedListModel;
 import edu.escuelaing.arem.model.linkedListModel.exception.MyLinkedListException;
 
 /**
- *
+ * Linked list implementation
+ * @author Martin Cantor (andres.cantor-u@mail.escuelaing.edu.co)
+ * @version 1.0
  */
 public class MyLinkedList {
 
     /**
-     *
+     * The head node of the linked list
      */
     private Node head;
 
     /**
-     *
+     * the size of the linked list
      */
     private int size;
 
     /**
-     *
+     * Linked list constructor without elements
      */
     public MyLinkedList(){
         this.head = null;
@@ -26,8 +28,8 @@ public class MyLinkedList {
     }
 
     /**
-     *
-     * @param information
+     * Add a node at a head
+     * @param information the data saved in the Node added
      */
     public void addANodeAtHead(Object information){
         Node theNewNode = new Node(information);
@@ -38,8 +40,8 @@ public class MyLinkedList {
     }
 
     /**
-     *
-     * @param information
+     * Add a node at a tail
+     * @param information the data saved in the node added
      */
     public void addNodeAtTheTail(Object information){
         if(head == null){
@@ -55,8 +57,8 @@ public class MyLinkedList {
     }
 
     /**
-     *
-     * @param information
+     * Add a node in the linked list
+     * @param information the data saved in the node added
      */
     public void addANode(Object information){
         if(this.head == null) {
@@ -67,10 +69,10 @@ public class MyLinkedList {
     }
 
     /**
-     *
-     * @param index
-     * @param information
-     * @throws MyLinkedListException
+     * Add a node in a given position within the linked list
+     * @param index the position where the node will be added
+     * @param information the data saved in the node added
+     * @throws MyLinkedListException throws if the linked list is empty
      */
     public void addANodeByIndex(int index, Object information) throws MyLinkedListException{
         if(head == null && index == 0){
@@ -91,9 +93,9 @@ public class MyLinkedList {
     }
 
     /**
-     *
-     * @param index
-     * @throws MyLinkedListException
+     * Delete a node in a given position within the linked list
+     * @param index the position where the node will be deleted
+     * @throws MyLinkedListException throws if the linked list is empty
      */
     public void deleteANodeByIndex(int index) throws MyLinkedListException{
         if(head == null && index == 0 || head ==null && index !=0 ){
@@ -109,10 +111,10 @@ public class MyLinkedList {
     }
 
     /**
-     *
-     * @param index
-     * @return
-     * @throws MyLinkedListException
+     * Get a Node given a position
+     * @param index the node position
+     * @return the Node that is in the given position
+     * @throws MyLinkedListException throws if the linked list is empty
      */
     public Node getNodeByIndex(int index) throws MyLinkedListException{
         if(head == null && index == 0 || head ==null && index !=0 ) {
@@ -127,10 +129,10 @@ public class MyLinkedList {
     }
 
     /**
-     *
-     * @param index
-     * @return
-     * @throws MyLinkedListException
+     * Get the next node given a node's position
+     * @param index the node position of which want to know the next node
+     * @return The next node
+     * @throws MyLinkedListException throws if the element doesnt have a next node
      */
     public Node getTheNextNodeGivenAnIndex(int index) throws MyLinkedListException {
         if(index >=this.size || head ==null && index !=0 || head == null && index == 0 ){
@@ -141,10 +143,10 @@ public class MyLinkedList {
     }
 
     /**
-     *
-     * @param index
-     * @return
-     * @throws MyLinkedListException
+     * Get the prior node given a node's position
+     * @param index the node position of which want to know the prior node
+     * @return the prior node
+     * @throws MyLinkedListException throws if the element doesnt have a prior node or the linked list is empty
      */
     public Node getThePriorNodeGivenAnIndex(int index) throws MyLinkedListException {
         if(head == null && index == 0 || head ==null && index !=0 ) {
@@ -161,17 +163,13 @@ public class MyLinkedList {
     }
 
     /**
-     *
-     * @return
+     * Get the size of the linked list
+     * @return the size
      */
     public int getMyLinkedListSize(){
         return this.size;
     }
 
-    /**
-     *
-     * @return
-     */
     @Override
     public String toString() {
         return "Linked List = {" +
