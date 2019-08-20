@@ -1,8 +1,6 @@
 package edu.escuelaing.arem.model.linkedListModel;
 
-import junit.framework.TestCase;
-
-public class MyLinkedListTest extends TestCase {
+public class MyLinkedListTest{
 
     @Test
     public void testAddANodeAtHead() {
