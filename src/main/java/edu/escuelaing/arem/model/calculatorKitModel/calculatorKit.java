@@ -6,7 +6,6 @@ import edu.escuelaing.arem.model.linkedListModel.exception.MyLinkedListException
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.text.DecimalFormat;
 
 /**
  *  The calculator kit that read a set of elements of a file and calculate mean and std deviation
@@ -70,16 +69,6 @@ public class calculatorKit {
         }
         Double desviation = Math.sqrt(summatory/(this.linkedList.getMyLinkedListSize()-1));
         return desviation;
-    }
-
-    /**
-     *
-     * @param information
-     * @return
-     */
-    public String calculationFormat(Object information){
-        DecimalFormat decimalFormat = new DecimalFormat("#.##");
-        return decimalFormat.format(information);
     }
 
     /**
