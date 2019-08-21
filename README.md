@@ -16,11 +16,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Architecture
 
-Linked list implementation:
+#### Linked list implementation:
 
 ![](https://github.com/Martin9958/psp0/blob/master/src/main/resources/LinkedList.png)
 
-Project implementation:
+A linked list is a way to store a collection of elements. Each element in a linked list is stored in the form of a node, where the node is a collection of two sub elements (A data that stores the element and a next node that stores the link to the next node); a linked list is formed when many such nodes are linked together. The first node is always the head of the linked list and the last node point is the tail (in this case is null); this implementation are in two classes in the model linked list package: Mylinkedlist and Node. 
+
+#### Project architecture:
+
 
 ### Running the tests
 - The command to running the test is: `$ mvn test`
