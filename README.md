@@ -15,7 +15,9 @@ These instructions will get you a copy of the project up and running on your loc
 - Apache Maven 3.6.0
 
 ### Architecture
+
 Linked list implementation:
+
 ![](https://github.com/Martin9958/psp0/blob/master/src/main/resources/LinkedList.png)
 
 Project implementation:
