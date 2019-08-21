@@ -15,8 +15,8 @@ public class calculatorKitTest{
 
     @Before
     public void init(){
-        calculatorKitA = new calculatorKit("./src/main/resources/columna1.txt");
-        calculatorKitB = new calculatorKit("./src/main/resources/columna2.txt");
+        calculatorKitA = new calculatorKit("./src/test/resources/columna1.txt");
+        calculatorKitB = new calculatorKit("./src/test/resources/columna2.txt");
     }
 
     /**
