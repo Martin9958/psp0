@@ -1,6 +1,6 @@
 # INTRODUCTION TO COMPLEX SYSTEMS - Assignment Kit
 ### Laboratory Requirement
-- Using maven and git, a program is created to calculate the mean and the standard deviation of a set of n real numbers in a file, using a linked list implementation to store the n numbers for the calculations.
+Using maven and git, a program is created to calculate the mean and the standard deviation of a set of n real numbers in a file, using a linked list implementation to store the n numbers for the calculations.
 
 ### Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes:
@@ -15,7 +15,9 @@ These instructions will get you a copy of the project up and running on your loc
 - Apache Maven 3.6.0
 
 ### Architecture
--
+Linked list implementation:
+
+Project implementation:
 
 ### Running the tests
 - The command to running the test is: `$ mvn test`
@@ -32,4 +34,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ### Acknowledgments
 - Maven and git
 - Java
-- Problem Abstraction and basic maths
+- Problem Abstraction
