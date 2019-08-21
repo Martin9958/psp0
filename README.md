@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 - Install into the maven repo: `$ mvn install`
 - Compiling the project: `$ mvn clean compile`
 - Create the .jar: `$ mvn package`
-- Run the application `$ java -cp target/ps0-1.0-SNAPSHOT.jar edu.escuelaing.arem.App `
+- Run the application `$ java -cp target/psp0-1.0-SNAPSHOT.jar edu.escuelaing.arem.App `
 - Generate the javadoc: `$ mvn javadoc:javadoc`
 
 ### Prerequisites
