@@ -24,6 +24,7 @@ A linked list is a way to store a collection of elements. Each element in a link
 
 #### Project architecture:
 
+![](https://github.com/Martin9958/psp0/blob/master/src/main/resources/psp0%20model.png)
 
 ### Running the tests
 - The command to running the test is: `$ mvn test`
